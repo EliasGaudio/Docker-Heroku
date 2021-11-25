@@ -43,7 +43,7 @@ jobs:
           dockerfile_directory: ./
 
           # (Optional, default: "Dockerfile")
-          # Dockerfile name.
+          # Dockerfile name. 
           dockerfile_name: Dockerfile
 
           # (Optional, default: "")
