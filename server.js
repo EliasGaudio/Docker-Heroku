@@ -4,7 +4,7 @@ const express = require('express'),
 app.get('/', (req, res) => {
     res.send('REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE');
 });
-let port = process.env.PORT || 8080;
-app.listen(port, () => {
-    console.log(`Application running on port: ${port}`);
+
+app.listen(8080, () => {
+    console.log(`Application running on port: 8080`);
 });
