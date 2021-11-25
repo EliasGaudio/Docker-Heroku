@@ -2,11 +2,11 @@
   "name": "node-docker-heroku",
   "version": "0.0.1",
   "description": "A simple Node and Docker application deployed to Heroku",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {},
   "author": "Mark Slosarek <mark@slosarek.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "4.16.2"
   }
 }</mark@slosarek.com>
