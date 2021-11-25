@@ -1,12 +1,10 @@
-const express = require("express");
-const os = require("os");
-
-const app = express();
-
-app.get("/", (req, res) => {
-  res.send("Hello from Swarm " + os.hostname());
+'use strict';
+const express = require('express'),
+    app = express();
+app.get('/', (req, res) => {
+    res.send('REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE');
 });
-
-app.listen(3000, () => {
-  console.log("Server is running on port 3000");
+let port = process.env.PORT || 8080;
+app.listen(port, () => {
+    console.log(`Application running on port: ${port}`);
 });
