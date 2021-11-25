@@ -5,6 +5,8 @@ name: Deploy to heroku.
 on:
   push:
     branches: [master]
+  pull_request:
+    branches: [ main ]
 
 # Your workflows jobs.
 jobs:
