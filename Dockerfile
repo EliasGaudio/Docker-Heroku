@@ -1,1 +1,7 @@
-FROM takacsmark/swarm-example:1.0
+FROM node:carbon
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm install --only=production
+COPY server.js ./
+EXPOSE 3000
+CMD [ "node", "server.js" ]
